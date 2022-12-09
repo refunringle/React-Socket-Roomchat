@@ -1,0 +1,26 @@
+.loginClass {
+    background-image: url('https://i.imgur.com/xhiRfL6.jpg');
+    height: 100%;
+}
+
+#profile-img {
+    height:180px;
+}
+/* .h-80 {
+    height: 80% !important;
+}
+ */
+
+
+ .body-container {
+    height: 100vh;
+    position: relative;
+ }
+ .body-form {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
