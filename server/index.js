@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 });
 
 io.on('connection', (socket) => {
-  console.log("connection"); // x8WIv7-mJelg7on_ALbx
+  console.log("connection"); 
 
   socket.on('join',({name,room},callback) => {
     console.log(name,room , 'room name')
